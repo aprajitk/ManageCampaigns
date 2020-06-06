@@ -1,0 +1,42 @@
+.nav-bar {
+width: auto;
+height: 60px;
+background: #1F2640;
+}
+.manage-campaigns {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 50px;
+color: #2B416C;
+padding: 20px 0 0 50px;
+}
+.under-line{
+height: 1px;
+background: #F1F1F4;
+transform: matrix(1, 0, 0, -1, 0, 0);
+margin-left: 60px;
+}
+.upcoming-campaigns {
+font-weight: 500;
+color: #83A515;
+}
+.live-campaigns {
+
+}
+.past-campaigns {
+   
+}
+.campaigns-list {
+    display: flex;
+}
+.campaigns {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #556789;
+    padding: 10px 0 0 60px;
+}

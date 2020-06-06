@@ -1,0 +1,26 @@
+.table-data {
+width: auto;
+height: auto;
+background: #FFFFFF;
+box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+margin: 10px 60px;
+display: table;
+}
+.table-row {
+    display: table-row;
+}
+.table-header {
+height: 48px;
+background: #F1F1F4;
+}
+.table-body {
+
+}
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 2px;
+}
+/* .hide-input {
+    opacity: 0;
+} */

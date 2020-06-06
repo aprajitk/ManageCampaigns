@@ -1,0 +1,32 @@
+<div class="table-data">
+    <div class="table-header table-row">
+        <div class="table-cell" *ngFor="let col of columns">
+            {{col}}
+        </div>
+    </div>
+    <div class="table-body table-row" *ngFor="let data of datas">
+        <!-- <td *ngFor="let i of index">
+          {{data[i]}}
+        </td> -->
+        <div class="table-cell">
+            <div>{{data.name}}</div>
+            <div>5 days ago</div>
+        </div>
+        <div class="table-cell">
+            {{data.region}}
+        </div>
+        <div class="table-cell">
+            {{data.createdOn}}
+        </div>
+        <div class="table-cell">
+            {{data.price}}
+        </div>
+        <div class="table-cell">{{data.csv}}</div>
+        <div class="table-cell">{{data.report}}</div>
+        <div class="table-cell">
+            <!-- <div>{{data.image_url}}</div> -->
+            <img [src]= "data.image_url" alt="img">
+            <input class="hide-input" type="date" id="selectedDate" (click)="selectDate($event)">
+        </div>
+    </div>
+</div>

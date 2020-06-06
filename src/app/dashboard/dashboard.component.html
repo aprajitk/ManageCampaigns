@@ -1,0 +1,9 @@
+<div class="nav-bar"></div>
+<div class="manage-campaigns">Manage Campaigns</div>
+<div class="campaigns-list">
+    <div class="upcoming-campaigns campaigns" (click)="campaigns('uc')">Upcoming Campaigns</div>
+    <div class="live-campaigns campaigns" (click)="campaigns('lc')">live Campaigns</div>
+    <div class="past-campaigns campaigns" (click)="campaigns('pc')">Past Campaigns</div>
+</div>
+<div class="under-line"></div>
+<app-details-table [campClicked]="campClick"></app-details-table>
